@@ -1,0 +1,35 @@
+/*contact.html form/////////////////////////////////////////////////*/
+
+#contactForm {
+  width: 40%;
+  margin: 10%;
+  padding: 2%;
+  background-color:cadetblue;
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-items:  center;
+  position: relative;
+  left: 20%;
+  right: 30%;
+}
+  
+.contact_form_element {
+  width: 90%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+  
+#name, #email {
+  color: cadetblue;
+}
+  
+#submit_btn {
+  border-radius: 0;
+  border: 0 none;
+  box-shadow: none;
+  background-color: turquoise;
+  height: 40px;
+}
+
+
+
